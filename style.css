@@ -49,16 +49,24 @@ h3 {
   .container {
     width: 700px;
   }
+  .card {
+    width: 700px
+  }
 }
 
 @media (max-width: 720px) {
   .container {
     width: 500px;
   }
-}
+  .card {
+    width: 500px
+  }
 
 @media (max-width: 540px) {
   .container {
     width: 300px;
+  }
+  .card {
+    width: 300px
   }
 }
